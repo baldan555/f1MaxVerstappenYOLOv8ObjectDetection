@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['max verstappen']
+
+roboflow:
+  workspace: niss-baldanullah
+  project: vehicle-detect-941tx
+  version: 1
+  license: Public Domain
+  url: https://universe.roboflow.com/niss-baldanullah/vehicle-detect-941tx/dataset/1
